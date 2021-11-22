@@ -1,9 +1,19 @@
 #logo-container {
-    background-color: skyblue;
-    height: 50px;
+    background-color: rgb(3, 62, 85);
+    height: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
+
+#banner-image {
+    position: relative;
+}
+
+
 #logo {
-    width: 10%;
+    width: 20%;
     text-align: left;
-    margin-top: 15px;
+    position: absolute;
+    top: 100px;
 }
