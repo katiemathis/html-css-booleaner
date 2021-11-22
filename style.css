@@ -1,7 +1,6 @@
 #logo-container {
     background-color: rgb(86, 140, 240);
-    background-image: repeat-x;
-    height: 120px;
+    height: 60px;
     width: 100%;
     position: relative;
     top: 0;
@@ -9,7 +8,10 @@
 }
 
 #banner-image {
-    position: relative;
+    position: absolute;
+    clip: rect(0px,200px,60px,0px);
+    border-image-repeat: repeat-x;
+    
 
 }
 
@@ -18,7 +20,7 @@
     width: 20%;
     text-align: left;
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 10px;
 }
 
@@ -47,14 +49,18 @@
 }
 
 .unordered-list {
-    margin-left: 0;
+    list-style: inside;
     padding-left: 0;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 .table-header {
     color: white;
+    text-align: left;
     background-color: rgb(4, 155, 201);
-    border-right: rgb(4, 155, 201) 2px;
 }
 
 .odd-row {
