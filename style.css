@@ -10,9 +10,6 @@
 #banner-image {
     position: absolute;
     clip: rect(0px,200px,60px,0px);
-    border-image-repeat: repeat-x;
-    
-
 }
 
 
