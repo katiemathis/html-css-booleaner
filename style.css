@@ -1,6 +1,8 @@
 #logo-container {
-    background-color: rgb(15, 119, 165);
+    background-color: rgb(86, 140, 240);
+    background-image: repeat-x;
     height: 120px;
+    width: 100%;
     position: relative;
     top: 0;
     left: 0;
@@ -8,6 +10,7 @@
 
 #banner-image {
     position: relative;
+
 }
 
 
@@ -31,4 +34,32 @@
     font-size: 6;
     top: 2px;
     
+}
+
+#main-pictures {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: left;
+
+}
+
+.unordered-list {
+    margin: 0;
+    padding: 0;
+}
+
+.table-header {
+    color: white;
+    background-color: rgb(4, 155, 201);
+    border-right: rgb(4, 155, 201) 2px;
+}
+
+.odd-row {
+    background-color: rgb(151, 242, 245);
+}
+
+.first-columns {
+    width:25%;
+
 }
