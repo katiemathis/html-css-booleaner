@@ -2,3 +2,6 @@
     background-image:url(pattern.png);
     background-repeat:repeat-x;
 }
+#logo {
+    height: 50px;
+}
