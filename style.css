@@ -1,6 +1,6 @@
 #logo-container {
-    background-color: rgb(3, 62, 85);
-    height: 150px;
+    background-color: rgb(15, 119, 165);
+    height: 120px;
     position: relative;
     top: 0;
     left: 0;
@@ -15,5 +15,6 @@
     width: 20%;
     text-align: left;
     position: absolute;
-    top: 100px;
+    top: 55px;
+    left: 10px;
 }
