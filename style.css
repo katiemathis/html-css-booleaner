@@ -19,10 +19,16 @@
     left: 10px;
 }
 
-h5 {
-    color: lightgrey
+
+#byline {
+    color: grey;
+    font-size: 10;
+    
 }
 
-h6 {
-    color: lightgrey
+#date {
+    color: grey;
+    font-size: 6;
+    top: 2px;
+    
 }
