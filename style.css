@@ -1,7 +1,4 @@
-#logo-background {
-    background-image: url(pattern.png)
-  background-repeat: repeat-x;
-}
-img {
-    width: 50%;
+header {
+    background-image:url(pattern.png);
+    background-repeat:repeat-x;
 }
