@@ -20,13 +20,24 @@
 #byline {
     color: grey;
     font-size: 10;
-    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.date {
+    color: skyblue;
+    width: 500px;
+    height: 500px;
 }
 
 #date {
     color: grey;
     font-size: 6;
-    top: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     
 }
 
@@ -35,9 +46,15 @@
     top: 0;
     left: 0;
     align-items: left;
-    margin-left: 0;
-    padding-left: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
 
+}
+
+figcaption {
+    font-size: 10px;
 }
 
 .evidenziatore {
