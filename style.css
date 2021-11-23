@@ -62,9 +62,9 @@
 }
 
 .unordered-list {
-    list-style: inside;
-    margin-left: 0px; 
-    padding-left: 0px;
+    list-style-position: inside;
+    padding-left: -35px;
+    margin-left: -35px;
 }
 
 table {
