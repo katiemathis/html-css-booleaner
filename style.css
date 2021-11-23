@@ -1,15 +1,16 @@
 #logo-container {
     background-image: url(img/pattern.png);
+    background-size: 20%;
     background-repeat: repeat-x;
     background-color: rgb(86, 140, 240);
-    height: 60px;
+    height: 65px;
 }
 
 #logo {
     width: 20%;
     text-align: left;
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 10px;
 }
 
@@ -88,6 +89,17 @@ table {
     color: grey;
     margin-bottom: 0px;
 }
+
+.text-overlay {
+    color: white;
+    text-align: left;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
 #footer-image-1 {
     margin-top: 0px;  
     margin-bottom: 5px;
